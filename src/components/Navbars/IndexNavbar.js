@@ -74,13 +74,26 @@ function IndexNavbar() {
             navbar
           >
             <Nav navbar>
+            <NavItem>
+                <NavLink
+                  href="https://github.com/mhamwala"
+                  target="_blank"
+                  id="github-tooltip"
+                >
+                  <i className="fab fa-github"></i>
+                  <p className="d-lg-none d-xl-none">Github</p>
+                </NavLink>
+                <UncontrolledTooltip target="#twitter-tooltip">
+                  Follow me on Twitter
+                </UncontrolledTooltip>
+              </NavItem>
               <NavItem>
                 <NavLink
                   href="https://www.linkedin.com/in/musa-hamwala-ii-974820160/"
                   target="_blank"
                   id="linkedin-tooltip"
                 >
-                  <i className="fab fa-linkedin-square"></i>
+                  <i className="fab fa-linkedin"></i>
                   <p className="d-lg-none d-xl-none">linkedin</p>
                 </NavLink>
                 <UncontrolledTooltip target="#linkedin-tooltip">
@@ -98,19 +111,6 @@ function IndexNavbar() {
                 </NavLink>
                 <UncontrolledTooltip target="#twitter-tooltip">
                   Follow me on Twitter
-                </UncontrolledTooltip>
-              </NavItem>
-              <NavItem>
-                <NavLink
-                  href="https://www.instagram.com/musahamwala"
-                  target="_blank"
-                  id="instagram-tooltip"
-                >
-                  <i className="fab fa-instagram"></i>
-                  <p className="d-lg-none d-xl-none">Instagram</p>
-                </NavLink>
-                <UncontrolledTooltip target="#instagram-tooltip">
-                  Follow me on Instagram
                 </UncontrolledTooltip>
               </NavItem>
             </Nav>

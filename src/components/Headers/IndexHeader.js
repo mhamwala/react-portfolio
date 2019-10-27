@@ -28,17 +28,12 @@ function IndexHeader() {
         <div
           className="page-header-image"
           style={{
-            backgroundImage: "url(" + require("assets/img/main_pic.png") + ")"
+            backgroundImage: "url(" + require("assets/img/main_pic_2.png") + ")"
           }}
           ref={pageHeader}
         ></div>
         <Container>
-          <div className="content-center brand">
-            <img
-              alt="..."
-              className="n-logo"
-              src={require("assets/img/logo.png")}
-            ></img>
+          <div style="margin: 20px">
             <h1 className="h1-seo">Musa Hamwala II</h1>
             <h3>Software Developer</h3>
           </div>
