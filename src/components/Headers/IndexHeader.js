@@ -33,7 +33,7 @@ function IndexHeader() {
           ref={pageHeader}
         ></div>
         <Container>
-          <div style="margin: 20px">
+          <div className="content-center brand">
             <h1 className="h1-seo">Musa Hamwala II</h1>
             <h3>Software Developer</h3>
           </div>
