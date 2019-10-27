@@ -12,7 +12,7 @@ ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Switch>
-        <Route path="/" render={props => <Index {...props} />} />
+        <Route path="/react-portfolio" render={props => <Index {...props} />} />
           path="/landing-page"
         />
       </Switch>
