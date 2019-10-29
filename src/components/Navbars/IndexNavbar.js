@@ -83,8 +83,8 @@ function IndexNavbar() {
                   <i className="fab fa-github"></i>
                   <p className="d-lg-none d-xl-none">Github</p>
                 </NavLink>
-                <UncontrolledTooltip target="#twitter-tooltip">
-                  Follow me on Twitter
+                <UncontrolledTooltip target="#github-tooltip">
+                  Find me on Github
                 </UncontrolledTooltip>
               </NavItem>
               <NavItem>
@@ -94,10 +94,10 @@ function IndexNavbar() {
                   id="linkedin-tooltip"
                 >
                   <i className="fab fa-linkedin"></i>
-                  <p className="d-lg-none d-xl-none">linkedin</p>
+                  <p className="d-lg-none d-xl-none">Linkedin</p>
                 </NavLink>
                 <UncontrolledTooltip target="#linkedin-tooltip">
-                  Follow me on Linkedin
+                  Connect with me on Linkedin
                 </UncontrolledTooltip>
               </NavItem>
               <NavItem>
